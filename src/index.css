@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.link{
+  text-decoration: none;
+  color: #0d6efd;
+
+}
+.link:hover{
+  color: white;
+}
+
+.menu-section {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #0d6efd;
+}
+
+.tags {
+  padding: 5px;
+  margin: 10px;
+}
+
+input {
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+}
+
+input:focus, input:active {
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+/* 
+tr:nth-child(even) {
+  background-color: #e6fdfe;
+}
+
+tr:nth-child(odd) {
+  background-color: #e6fdfe;
+} */
+
+th{
+  background-color: #e6fdfe !important;
+}
+
+h3{
+  margin-left: 20px;;
+}
+
+th span {
+  cursor: pointer;
+}
